@@ -2,9 +2,9 @@
 /**
  * add - adds two integrers and returns the result
  *
- * x: number being added
+ * @x: number being added
  *
- * y: number being added
+ * @y: number being added
  *
  * Return: Always 0.
  *
