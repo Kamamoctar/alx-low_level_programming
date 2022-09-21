@@ -1,0 +1,1 @@
+This directory is for les pointer and arrays plus string learning.
