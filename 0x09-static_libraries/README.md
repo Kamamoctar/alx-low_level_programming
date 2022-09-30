@@ -1,1 +1,1 @@
-task on libraries
+This dir is for learning libraries.
