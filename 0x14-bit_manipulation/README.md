@@ -1,14 +1,4 @@
-# C - Bit manipulation
-
-In this project, I learned how to manipulate bits and use the
-bitwise operators `>>`, `<<`, `&`, `|`, and `^` in C.
-
-## Header File :file_folder:
-
-* [main.h](./main.h): Header file containing prototypes for all
-functions written in the project.
-
-| File                   | Prototype                                                           |
+#include "main.h"
 | ---------------------- | ------------------------------------------------------------------- |
 | `0-binary_to_uint.c`   | `unsigned int binary_to_uint(const char *b);`                       |
 | `1-print_binary.c`     | `void print_binary(unsigned long int n);`                           |
@@ -18,48 +8,41 @@ functions written in the project.
 | `5-flip_bits.c`        | `unsigned int flip_bits(unsigned long int n, unsigned long int m);` |
 | `100-get_endianness.c` | `int get_endianness(void);`                                         |
 
-## Tasks :page_with_curl:
+## Tâches :page_with_curl:
 
 * **0. 0**
-  * [0-binary_to_uint.c](./0-binary_to_uint.c): C function that converts a binary number
-  to an `unsigned int`.
-  * The parameter `b` is a pointer to a string of `0` and `1` characters.
-  * If `b` is `NULL` or there are one or more characters in `b` that are
-  not `0` or `1` - returns `0`.
-  * Otherwise - returns the converted number.
+  * [0-binary_to_uint.c](./0-binary_to_uint.c) : Fonction en C qui convertit un nombre binaire en `unsigned int`.
+  * Le paramètre `b` est un pointeur vers une chaîne de caractères composée de `0` et de `1`.
+  * Si `b` est `NULL` ou s'il y a un ou plusieurs caractères dans `b` qui ne sont pas `0` ou `1` - retourne `0`.
+  * Sinon - retourne le nombre converti.
 
 * **1. 1**
-  * [1-print_binary.c](./1-print_binary.c): C function that prints the binary representation
-  of a number.
+  * [1-print_binary.c](./1-print_binary.c) : Fonction en C qui affiche la représentation binaire d'un nombre.
 
 * **2. 10**
-  * [2-get_bit.c](./2-get_bit.c): C function that returns the value of a bit at a
-  given index.
-  * Indices start at `0`.
-  * If an error occurs - returns `-1`.
-  * Otherwise - returns the value of the bit at the given index.
+  * [2-get_bit.c](./2-get_bit.c) : Fonction en C qui renvoie la valeur d'un bit à un index donné.
+  * Les indices commencent à `0`.
+  * En cas d'erreur - retourne `-1`.
+  * Sinon - retourne la valeur du bit à l'index donné.
 
 * **3. 11**
-  * [3-set_bit.c](./3-set_bit.c): C function that sets the value of a bit at a given index
-  to `1`.
-  * If an error occurs - returns `-1`.
-  * Otherwise - returns `1`.
+  * [3-set_bit.c](./3-set_bit.c) : Fonction en C qui définit la valeur d'un bit à un index donné à `1`.
+  * En cas d'erreur - retourne `-1`.
+  * Sinon - retourne `1`.
 
 * **4. 100**
-  * [4-clear_bit.c](./4-clear_bit.c): C function that sets the value of a bit at
-  a given index to `0`.
-  * If an error occurs - returns `-1`.
-  * Otherwise - returns `1`.
+  * [4-clear_bit.c](./4-clear_bit.c) : Fonction en C qui définit la valeur d'un bit à un index donné à `0`.
+  * En cas d'erreur - retourne `-1`.
+  * Sinon - retourne `1`.
 
 * **5. 101**
-  * [5-flip_bits.c](./5-flip_bits.c): C function that returns the number of bits needed
-  to be flipped to get from one number to another.
+  * [5-flip_bits.c](./5-flip_bits.c) : Fonction en C qui renvoie le nombre de bits à inverser pour passer d'un nombre à un autre.
 
 * **6. Endianness**
-  * [100-get_endianness.c](./100-get_endianness.c): C function that checks the endianness.
-  * If big-endian - returns `0`.
-  * If little-endian - returns `1`.
+  * [100-get_endianness.c](./100-get_endianness.c) : Fonction en C qui vérifie l'endianness.
+  * Si c'est du big-endian - retourne `0`.
+  * Si c'est du little-endian - retourne `1`.
 
 * **7. Crackme3**
-  * [101-password](./101-password): File containing the password for the
-  [crackme3](https://github.com/holbertonschool/0x13.c) executable.
+  * [101-password](./101-password) : Fichier contenant le mot de passe pour l'exécutable [crackme3](https://github.com/holbertonschool/0x13.c).
+
